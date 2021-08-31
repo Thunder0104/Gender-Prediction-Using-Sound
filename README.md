@@ -1,1 +1,4 @@
 # Gender-Prediction-Using-Sound
+The same name can be spelled out in a many ways(mistake spelling is also included). For example, Tomorrow and Tommorow, or Elizabeth and Elisabeth. Phonetics(which gives correct sounding of the word) can be a nice way to match names than spelling. In this project, you will use Python packages Fuzzy, Numpy, Pandas to find out the genders of authors that have appeared in the New York Times Best Seller list for Children's Picture books.
+
+First, using **fuzzy.nysiis** (for phonetic) name matching, you will search for author names in a dataset provided by the US Social Security Administration that contains names and genders of all individuals who have applied for Social Security Cards. Next using *numpy* and *pandas*, we'll aggregate the author dataset by including gender. Finally, we will use the new dataset to plot the gender distribution of children's picture books authors over time.
